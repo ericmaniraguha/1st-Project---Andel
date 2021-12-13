@@ -1,0 +1,215 @@
+
+html, body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    height:100%;
+  
+}
+
+main {
+    width: auto;
+    background-color: white;
+    max-height: 100%;
+    border-top: 3px black solid;
+    border-radius: 5px;
+    padding-left: 48px;
+}
+
+.header {
+   
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* background-color: white; */
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    padding-top: 3px;
+    
+}
+.header .title{
+    font-family: Arial;
+    font-size: 18px;
+
+}
+
+.head-text {
+    width: 400px;
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 100%;
+    margin-left: 6px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+}
+.header label{
+    font-family: Arial;
+    font-size: 24px;
+    
+    
+}
+#years-1 {
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+} */
+
+.head-text label {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    display: block;
+}
+
+.head-text  {
+    
+    margin-top: 48px;
+    width: 400px;
+    text-align: left;
+}
+
+
+.head-img img {
+    
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-top: 48px;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin-top: 32px;
+    
+}
+
+.leftside {
+    width: 335px;
+    scrollbar-width: thin;
+}
+.leftside b{
+
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 18px;
+}
+.leftside .ent-name{
+
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 18px;
+}
+.leftside label{
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 18px;
+}
+.leftside #years{
+    font-family: Arial;
+    font-size: 7px;
+    /* line-height: 18px; */
+}
+.rightside {
+    padding-left: 26px;
+    width: 300px;
+    height: auto;
+    margin-left: 25px;
+    padding-top: 155px;
+    letter-spacing: normal;
+    color: #73808D;
+      
+}
+.rightside .mail{
+      font-size: 11px;
+      font-family: Arial;     
+}
+
+.rightside label b{
+    font-family: Arial;
+    font-size: 10px;
+    font-family: Arial;  
+}
+
+.rightside label{
+    font-family: Arial;
+    font-size: 11px;
+    font-family: Arial;  
+}
+
+label {
+    display: block;
+}
+
+
+@media screen and (max-width: 1000px) {
+    html,
+    body {
+        padding-left: 130px;
+        padding-right: 160px;
+        overflow-y: scroll;
+    }
+    .leftside {
+        width: 500px;
+        scrollbar-width: auto;
+        height: auto;
+        
+    }
+
+    .leftside {
+        width: 300px;
+        color: #73808D;
+        font-family: Arial;
+        height: auto;
+    }
+    .head-img {
+        
+        width: 400px;
+        text-align: center;
+    }
+
+/* 
+@media screen and (max-width: 790px) {
+    html,
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow-y: scroll;
+    }
+    .header {
+        width: 500px;
+        margin-top: -1px;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    html,
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-y: scroll;
+    }
+    .header {
+        width: 300px;
+        margin-top: -1px;
+    }
+} */
